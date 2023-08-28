@@ -1,0 +1,67 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    background-color: azure;
+}
+#app{
+    text-align: center;
+    margin: 0;
+}
+.form{
+    margin: 0 auto;
+    padding : 20px;
+    width: 300px;
+    background-color: aliceblue;
+    border-color: rgb(147, 165, 182);
+    border-style: groove;
+    border-radius: 100px;
+    margin-bottom: 50px;
+    margin-top: 100px;
+}
+
+#eventsContainer{
+    margin-top: 100px;
+    font-size: 30px;
+    border-style: groove;
+    border-radius: 100px;
+    width: 300px;
+    margin: 0 auto;
+    
+
+}
+
+#eventName, #eventDate{
+    text-align: center;
+    border-style: groove;
+    border-width: 2px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+#bAdd{
+    border-color: green;
+    text-align: center;
+    border-style: groove;
+    border-width: 2px;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: rgb(145, 219, 145);
+}
+
+.bDelete{
+    border-color: rgb(255, 9, 1);
+    text-align: center;
+    border-style: groove;
+    border-width: 2px;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: rgb(237, 124, 104);
+    
+}
+
+.bDelete:hover {
+    cursor: pointer;
+}
+#bAdd:hover {
+    cursor: pointer;
+}
